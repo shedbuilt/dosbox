@@ -1,0 +1,8 @@
+NAME=dosbox
+VERSION=SVN_TRUNK_r4085
+REVISION=1
+LICENSE=GPL-2.0-only
+SRC=https://sourceforge.net/code-snapshots/svn/d/do/dosbox/code-0/dosbox-code-0-4085-dosbox-trunk.zip
+CLEANUP=yes
+BUILDDEPS=unzip sdl sdl-net
+INSTALLDEPS=sdl sdl-net
