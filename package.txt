@@ -1,6 +1,6 @@
 NAME=dosbox
 VERSION=SVN_TRUNK_r4088
-REVISION=2
+REVISION=3
 LICENSE=GPL-2.0-only
 SRC=https://sourceforge.net/code-snapshots/svn/d/do/dosbox/code-0/dosbox-code-0-4088-dosbox-trunk.zip
 SRCMD5=dbeb91ffcd7ef9b318f09a32c1cd706f
