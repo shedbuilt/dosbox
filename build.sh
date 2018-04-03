@@ -1,7 +1,5 @@
 #!/bin/bash
-# shedmake doesn't natively support zip archives so we have to manually unpack the snapshot
-unzip dosbox-code-0-4088-dosbox-trunk.zip &&
-cd dosbox-code-0-4088-dosbox-trunk &&
+# Disable keyboard scancodes by default to prevent input issues
 patch -Np1 -i "${SHED_PATCHDIR}/dosbox_svn_r4088_disable_usescancodes.patch" &&
 ./autogen.sh &&
 ./configure --prefix=/usr/local \
