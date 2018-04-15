@@ -1,6 +1,6 @@
 #!/bin/bash
 # Disable keyboard scancodes by default to prevent input issues
-patch -Np1 -i "${SHED_PATCHDIR}/dosbox_svn_r4088_disable_usescancodes.patch" &&
+patch -Np1 -i "${SHED_PKG_PATCH_DIR}/dosbox_svn_r4088_disable_usescancodes.patch" &&
 ./autogen.sh &&
 ./configure --prefix=/usr/local \
             --disable-opengl &&
