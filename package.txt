@@ -1,6 +1,6 @@
 NAME=dosbox
 VERSION=GIT_MASTER
-REVISION=5
+REVISION=1
 LICENSE=GPL-2.0-only
 SRC=https://github.com/svn2github/dosbox.git
 REF=refs/heads/master
