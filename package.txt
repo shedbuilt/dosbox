@@ -1,11 +1,11 @@
 NAME=dosbox
-VERSION=r4168
-REVISION=2
+VERSION=r4373
+REVISION=3
 LICENSE=GPL-2.0-only
-SRC=https://github.com/svn2github/dosbox.git
-COMMIT=eba465c14f7f70f390874422e6797c9b0642ae7d
+SRC=https://github.com/countingpine/dosbox-svn
+COMMIT=3ccb4213f814dea9bdb3af20fc1b2c41fed84643
 PURGE=yes
-BUILDDEPS=sdl sdl-net libpng
-INSTALLDEPS=sdl sdl-net libpng
+BUILDDEPS=gl:gl4es gl:glu sdl sdl-net libpng
+INSTALLDEPS=gl:gl4es gl:glu sdl sdl-net libpng
 OPTIONS=(gl)
 DEFAULTS=
